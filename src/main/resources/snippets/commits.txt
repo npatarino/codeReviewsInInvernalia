@@ -1,0 +1,71 @@
+// jons-commit
+commit 070078158a5b3168ec515102a65284fhjf1958e6
+Author: Jon Snow <snow@targaryenconsulting.com>
+Date:   Mon Nov 27 15:43:21 2017 +0100
+
+"Fix dragon's bug"
+// jons-commit
+
+// tyrions-commit
+commit 070078158a5b3168ec515102a65284fhjf1958e6
+Author: Tyrion<tyrion@targaryenconsulting.com>
+Date:   Mon Nov 27 15:43:21 2017 +0100
+
+Refill the dragon’s fire before it gets empty:
+
+The dragon's fire were filled up after the deposit it's empty. It causes
+that for a short time the dragon had no fire. Let’s fill it up earlier.
+
+* Add fire listener into a fire store to detect the changes in the deposit
+* Create a DepositAction with strategy pattern to decoupled the action of
+refill and others from the dragon itself.
+https://github.com/targaryenConsulting/ID-124
+// tyrions-commit
+
+// top-commit-1
+commit 070078158a5b3168ec515102a65284fhjf1958e6
+Author: Jon Snow <snow@targaryenconsulting.com>
+Date:   Mon Nov 27 15:43:21 2017 +0100
+
+"Initial commit"
+// top-commit-1
+
+// top-commit-2
+commit 070078158a5b3168ec515102a65284fhjf1958e6
+Author: Jon Snow <snow@targaryenconsulting.com>
+Date:   Mon Nov 27 15:43:21 2017 +0100
+
+"Update README.md"
+// top-commit-2
+
+// top-commit-3
+commit 070078158a5b3168ec515102a65284fhjf1958e6
+Author: Jon Snow <snow@targaryenconsulting.com>
+Date:   Mon Nov 27 15:43:21 2017 +0100
+
+"*** empty log message ***"
+// top-commit-3
+
+// top-commit-4
+commit 070078158a5b3168ec515102a65284fhjf1958e6
+Author: Jon Snow <snow@targaryenconsulting.com>
+Date:   Mon Nov 27 15:43:21 2017 +0100
+
+"Dummy"
+// top-commit-4
+
+// top-commit-5
+commit 070078158a5b3168ec515102a65284fhjf1958e6
+Author: Jon Snow <snow@targaryenconsulting.com>
+Date:   Mon Nov 27 15:43:21 2017 +0100
+
+"Fix"
+// top-commit-5
+
+// top-commit-6
+commit 070078158a5b3168ec515102a65284fhjf1958e6
+Author: Jon Snow <snow@targaryenconsulting.com>
+Date:   Mon Nov 27 15:43:21 2017 +0100
+
+"Tests"
+// top-commit-6
