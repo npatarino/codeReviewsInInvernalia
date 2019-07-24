@@ -127,10 +127,10 @@ fun intro(): Slides = slides {
             comment {
                 image = "mini-danny.jpg"
                 text = "Respect me!<br/>" +
-                        "I’m Daenerys Webstorm of the tech crew Targaryen, the First of" +
-                        "Her Team, The Un-refactored, Queen of the Smells, the SOLID" +
-                        "and the First Commit, Queen of Merge, Khaleesi of the Great" +
-                        "Injector, Protector of the Realm™, Lady Regnant of the Seven" +
+                        "I’m Daenerys Webstorm of the tech crew Targaryen, the First of " +
+                        "Her Team, The Un-refactored, Queen of the Smells, the SOLID " +
+                        "and the First Commit, Queen of Merge, Khaleesi of the Great " +
+                        "Injector, Protector of the Realm™, Lady Regnant of the Seven " +
                         "Frameworks, Breaker of Method Chaining and Mother of Dagger"
             }
         }
@@ -345,7 +345,7 @@ fun intro(): Slides = slides {
         bullets {
             stepped = true
             items = listOf(
-                Bullet(text = "Doesn't write comments to not offend"),
+                Bullet(text = "Doesn't write meaningful comments"),
                 Bullet(text = "Doesn't look very deep"),
                 Bullet(text = "Just approves to unlock the ticket")
             )
@@ -876,9 +876,9 @@ fun intro(): Slides = slides {
         bullets {
             stepped = true
             items = listOf(
-                Bullet(text = "Collective Intelligence != Σ(Individual Intelligence)"),
-                Bullet(text = "∀(team member) ≈ participation ⇒ Collective Intelligence ↑"),
-                Bullet(text = "∀(team member) Social Awareness ↑ ⇒ Collective Intelligence ↑")
+                Bullet(text = "Collective Intelligence > Σ(Individual Intelligence)"),
+                Bullet(text = "Participation ↑ ⇒ Collective Intelligence ↑"),
+                Bullet(text = "Social Awareness ↑ ⇒ Collective Intelligence ↑")
             )
         }
     }
@@ -1015,7 +1015,7 @@ fun intro(): Slides = slides {
         p {
             comment {
                 text = "The naming of this variable could be a little confusing, I don’t fully understand it. " +
-                        "Don’t do always the same"
+                        "You always do the same"
             }
         }
     }
@@ -1024,7 +1024,7 @@ fun intro(): Slides = slides {
         p {
             comment {
                 text = "I do like this solution a lot, the strategy pattern it’s pretty well used, " +
-                        "but why you didn’t use a command pattern also?"
+                        "but you didn't thought this product it's going to be simplified."
             }
         }
     }
@@ -1174,14 +1174,14 @@ fun intro(): Slides = slides {
     slide(Class.Overlay) {
         title = "No place for _ego_"
         background {
-            image = "gif-ego.jpg"
+            image = "gif-ego.gif"
         }
     }
 
     slide(Class.Overlay) {
         title = "No place for very _sensitive_"
         background {
-            image = "gif-jon-sensible.jpg"
+            image = "gif-jon-sensible.gif"
         }
     }
 
@@ -1189,7 +1189,7 @@ fun intro(): Slides = slides {
         title = "Not for _SDD_"
         subtitle = "Schedule \uD83D\uDDD3 Driven Development"
         background {
-            image = "gif-white-walker.jpg"
+            image = "gif-white-walker.gif"
         }
     }
 

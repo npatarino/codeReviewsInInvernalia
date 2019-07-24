@@ -463,7 +463,7 @@ section.has-dark-background h1 {
 }
 
 html.imageable .slide-background {
-    opacity: 0.08 !important;
+    opacity: 0.15 !important;
 }
 
 .middle-right h1, .middle-right h2 {
