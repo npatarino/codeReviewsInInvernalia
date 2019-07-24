@@ -884,25 +884,6 @@ fun intro(): Slides = slides {
     }
 
     slide(Class.Overlay) {
-        title = "Empathy"
-        background {
-            image = "shame.jpg"
-        }
-    }
-
-    slide(Class.NoBackground) {
-        bullets {
-            stepped = true
-            items = listOf(
-                Bullet(text = "See the world as others see it"),
-                Bullet(text = "Nonjudgmental"),
-                Bullet(text = "Understand another person’s feelings"),
-                Bullet(text = "Communicate your understanding of that person’s feelings back to them")
-            )
-        }
-    }
-
-    slide(Class.Overlay) {
         title = "Humour"
         background {
             image = "missandei.jpg"
