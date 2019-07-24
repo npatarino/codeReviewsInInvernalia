@@ -2,7 +2,7 @@ body {
     background-color: #fefefe;
 }
 
-.reveal{
+.reveal {
     color: #3d3d3d;
 }
 
@@ -19,7 +19,9 @@ body {
 }
 
 .reveal blockquote {
-    color: #cccccc;
+    color: #3d3d3d;
+    background: #ffffff80;
+    box-shadow: 0 0 0;
 }
 
 .CodeMirror {

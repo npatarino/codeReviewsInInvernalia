@@ -902,21 +902,6 @@ fun intro(): Slides = slides {
         }
     }
 
-    slide(Class.NoBackground) {
-        title = "_Too many_ comments?"
-    }
-
-    slide(Class.NoBackground) {
-        bullets {
-            stepped = true
-            items = listOf(
-                Bullet(text = "Go offline"),
-                Bullet(text = "Think. It's really important your point?"),
-                Bullet(text = "Think. It's the quality going to be broken?")
-            )
-        }
-    }
-
     slide(Class.Overlay) {
         title = "Humour"
         background {
