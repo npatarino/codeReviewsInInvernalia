@@ -13,34 +13,6 @@ fun intro(): Slides = slides {
         }
     }
 
-    slide(Class.WithCode, Class.Custom("text-for-badg")) {
-        title = "#BADG"
-        p {
-            image(false, "badg.jpg")
-        }
-
-        background {
-            image = "white.png"
-        }
-    }
-
-    slide(Class.WithCode, Class.Custom("text-for-badg")) {
-        title = "#BADG"
-        p {
-            image(false, "edreams.png")
-        }
-
-        background {
-            image = "white.png"
-        }
-    }
-
-    slide {
-        background {
-            image = "cover.png"
-        }
-    }
-
     slide(Class.Overlay) {
         title = "Nicolás _Patarino_"
         subtitle = "@npatarino"
@@ -82,7 +54,7 @@ fun intro(): Slides = slides {
         }
     }
 
-    slide(Class.TitleLeft) {
+    slide(Class.TitleLeft, Class.Custom("text-for-purple")) {
         title = "Walker _White_"
         subtitle = "UX / UI"
         background {

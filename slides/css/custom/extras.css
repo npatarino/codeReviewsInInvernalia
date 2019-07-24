@@ -1,0 +1,39 @@
+.text-for-pink h1, .text-for-pink h2 {
+    color: #ffffff;
+}
+
+.text-for-pink h1 i, .text-for-pink h2 i {
+    color: #97b4e0;
+}
+
+.text-for-salmon h1, .text-for-salmon h2 {
+    color: #3d3d3d;
+}
+
+.text-for-salmon h1 i, .text-for-salmon h2 i {
+    color: #ffffff;
+}
+
+.text-for-yellow h1, .text-for-yellow h2 {
+    color: #3D2024;
+}
+
+.text-for-yellow h1 i, .text-for-yellow h2 i {
+    color: #A22861;
+}
+
+.text-for-pistacho h1, .text-for-pistacho h2 {
+    color: #3d3d3d;
+}
+
+.text-for-pistacho h1 i, .text-for-pistacho h2 i {
+    color: #CB9FAB;
+}
+
+.text-for-purple h1, .text-for-purple h2 {
+    color: #cccccc;
+}
+
+.white-background {
+    background: #ffffff;
+}
