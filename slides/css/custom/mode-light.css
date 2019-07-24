@@ -1,0 +1,29 @@
+body {
+    background-color: #fefefe;
+}
+
+.reveal{
+    color: #3d3d3d;
+}
+
+.reveal h1 em, .reveal h2 em, .reveal h3 em, .reveal h4 em, .reveal h5 em, .reveal h6 em {
+    color: #F5245F;
+}
+
+.reveal h1 i, .reveal h2 i, .reveal h3 i, .reveal h4 i, .reveal h5 i, .reveal h6 i {
+    color: #F5245F;
+}
+
+.reveal p.hashtag {
+    color: #cccccc;
+}
+
+.reveal blockquote {
+    color: #cccccc;
+}
+
+.CodeMirror {
+    background: #fefefe !important;
+    height: auto;
+    color: #cccccc;
+}

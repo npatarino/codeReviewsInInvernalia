@@ -1,0 +1,35 @@
+.reveal {
+    font-family: 'BioRhyme', serif;
+}
+
+.reveal h1,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.reveal h2 {
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.reveal h1 em, .reveal h2 em, .reveal h3 em, .reveal h4 em, .reveal h5 em, .reveal h6 em {
+    font-family: "Dancing Script", sans-serif;
+}
+
+.reveal h1 i, .reveal h2 i, .reveal h3 i, .reveal h4 i, .reveal h5 i, .reveal h6 i {
+    font-family: "Dancing Script", sans-serif;
+}
+
+.reveal p.hashtag {
+    font-family: 'Yatra One', cursive;
+}
+
+.reveal blockquote {
+    font-family: 'Rokkitt', serif;
+}
+
+.reveal .comment {
+    font-family: 'Inconsolata', sans-serif;
+}

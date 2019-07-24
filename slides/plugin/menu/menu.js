@@ -5,6 +5,7 @@
  */
 
 var RevealMenu = window.RevealMenu || (function(){
+    var isLightMode = true;
 	var config = Reveal.getConfig();
 	var options = config.menu || {};
 	options.path = options.path || scriptPath() || 'plugin/menu/';
@@ -387,6 +388,15 @@ var RevealMenu = window.RevealMenu || (function(){
 				return select('body').classList.contains('slide-menu-active');
 			}
 
+			function switchThemeMode() {
+			    if(isLightMode){
+                    document.getElementById('theme').href = "slides/css/custom/mode-dark.css";
+                }else{
+                    document.getElementById('theme').href = "slides/css/custom/mode-light.css";
+                }
+                isLightMode = !isLightMode;
+            }
+
 			function openPanel(event, ref) {
 				openMenu(event);
 				var panel = ref;
@@ -532,6 +542,7 @@ var RevealMenu = window.RevealMenu || (function(){
 
 					addToolbarButton('Slides', 'Slides', 'fa-images', 'fas', openPanel, true);
 					addToolbarButton('Fullscreen', 'Fullscreen', 'fa-expand', 'fas', closePanelAndFullscreen, true);
+					addToolbarButton('Theme', 'Mode', 'fa-adjust', 'fas', switchThemeMode, true);
 
 					if (custom) {
 						custom.forEach(function(element, index, array) {

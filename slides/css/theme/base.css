@@ -19,12 +19,8 @@ section.has-dark-background h6 {
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
-body {
-    background-color: #3d3d3d;
-}
 
 .reveal {
-    font-family: 'BioRhyme', serif;
     font-size: 6vmin;
     font-weight: normal;
     color: #cccccc;
@@ -57,12 +53,12 @@ body {
 .reveal h4,
 .reveal h5,
 .reveal h6 {
-    font-family: 'Playfair Display', sans-serif;
     font-weight: 600;
     line-height: 1.2;
     letter-spacing: normal;
     text-shadow: none;
     word-wrap: break-word;
+    text-align: center;
 }
 
 section.has-dark-background h1 {
@@ -78,7 +74,6 @@ section.has-dark-background h1 {
 .reveal h2 {
     font-size: 1.3em;
     font-weight: lighter;
-    font-family: 'Dancing Script', sans-serif;
 }
 
 .reveal h3 {
@@ -90,15 +85,11 @@ section.has-dark-background h1 {
 }
 
 .reveal h1 em, .reveal h2 em, .reveal h3 em, .reveal h4 em, .reveal h5 em, .reveal h6 em {
-    color: #F5245F;
     font-style: normal;
-    font-family: "Dancing Script", sans-serif;
     font-size: larger;
 }
 
 .reveal h1 i, .reveal h2 i, .reveal h3 i, .reveal h4 i, .reveal h5 i, .reveal h6 i {
-    font-family: "Dancing Script", sans-serif;
-    color: #F5245F;
     font-size: larger;
     font-style: normal;
 }
@@ -135,8 +126,6 @@ section.has-dark-background h1 {
 
 .reveal p.hashtag {
     font-size: 1.4em;
-    color: #cccccc;
-    font-family: 'Yatra One', cursive;
 }
 
 /* Ensure certain elements are never larger than the slide itself */
@@ -203,8 +192,6 @@ section.has-dark-background h1 {
 }
 
 .reveal blockquote {
-    font-family: 'Rokkitt', serif;
-    color: #cccccc;
     display: block;
     position: relative;
     bottom: 0;
@@ -240,7 +227,6 @@ section.has-dark-background h1 {
 }
 
 .reveal .comment {
-    font-family: 'Inconsolata', sans-serif;
     display: table;
     background: #1A1C1C10;
     width: 60%;
@@ -429,11 +415,6 @@ section.has-dark-background h1 {
     }
 }
 
-.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
-    color: #cccccc;
-    text-align: center;
-}
-
 .section-bottom h1, .section-bottom h2, .section-bottom h3, .section-bottom h4, .section-bottom h5, .section-bottom h6 {
     text-align: left;
     position: absolute;
@@ -491,44 +472,4 @@ html.imageable .slide-background {
 
 .middle-left h1, .middle-left h2 {
     text-align: left;
-}
-
-.text-for-pink h1, .text-for-pink h2 {
-    color: #ffffff;
-}
-
-.text-for-pink h1 i, .text-for-pink h2 i {
-    color: #97b4e0;
-}
-
-.text-for-salmon h1, .text-for-salmon h2 {
-    color: #3d3d3d;
-}
-
-.text-for-salmon h1 i, .text-for-salmon h2 i {
-    color: #ffffff;
-}
-
-.text-for-yellow h1, .text-for-yellow h2 {
-    color: #3D2024;
-}
-
-.text-for-yellow h1 i, .text-for-yellow h2 i {
-    color: #A22861;
-}
-
-.text-for-pistacho h1, .text-for-pistacho h2 {
-    color: #3d3d3d;
-}
-
-.text-for-badg h1, .text-for-badgh2 {
-    color: #7BC45B;
-}
-
-.text-for-pistacho h1 i, .text-for-pistacho h2 i {
-    color: #CB9FAB;
-}
-
-.white-background {
-    background: #ffffff;
 }
