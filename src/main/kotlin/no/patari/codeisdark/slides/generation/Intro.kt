@@ -31,13 +31,6 @@ fun intro(): Slides = slides {
         }
     }
 
-    slide(Class.Overlay, Class.TitleBottom) {
-        title = "_Winterfell_ project"
-        background {
-            image = "trees.jpg"
-        }
-    }
-
     slide(Class.TitleRight, Class.Custom("text-for-pink")) {
         title = "Peter _Baelish_"
         subtitle = "Project Manager"
@@ -75,13 +68,6 @@ fun intro(): Slides = slides {
         subtitle = "Junior Developer"
         background {
             image = "jon.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        title = "_Winterfell_ project"
-        background {
-            image = "trees.jpg"
         }
     }
 
@@ -126,11 +112,10 @@ fun intro(): Slides = slides {
         p {
             comment {
                 image = "mini-danny.jpg"
-                text = "Respect me!<br/>" +
+                text = "You have to respect me!<br/>" +
                         "I’m Daenerys Webstorm of the tech crew Targaryen, the First of " +
                         "Her Team, The Un-refactored, Queen of the Smells, the SOLID " +
-                        "and the First Commit, Queen of Merge, Khaleesi of the Great " +
-                        "Injector, Protector of the Realm™, Lady Regnant of the Seven " +
+                        "and the First Commit, Lady Regnant of the Seven " +
                         "Frameworks, Breaker of Method Chaining and Mother of Dagger"
             }
         }
@@ -462,46 +447,6 @@ fun intro(): Slides = slides {
         }
     }
 
-    slide(Class.Overlay, Class.TitleBottom) {
-        p {
-            image(false, "story.jpg")
-        }
-
-        background {
-            image = "danny-mini-dragon.jpg"
-        }
-    }
-
-    slide(Class.NoBackground) {
-        title = "Jon Snow's _commit_"
-    }
-
-    slide(Class.NoBackground) {
-        p {
-            code {
-                document {
-                    file = "commits.txt"
-                    fragment = "jons-commit"
-                }
-            }
-        }
-    }
-
-    slide(Class.NoBackground) {
-        title = "Tyrion's _commit_"
-    }
-
-    slide(Class.NoBackground) {
-        p {
-            code {
-                document {
-                    file = "commits.txt"
-                    fragment = "tyrions-commit"
-                }
-            }
-        }
-    }
-
     slide(Class.NoBackground) {
         title = "_Top commits_ Github"
     }
@@ -537,7 +482,7 @@ fun intro(): Slides = slides {
                     true, "Help to review it", listOf(
                         Bullet(text = "Could you provide some screenshots?"),
                         Bullet(text = "Ask for specific feedback"),
-                        Bullet(text = "Explain how to test it")
+                        Bullet(text = "Explain how to test it (screenshots, gifs, APKs...)")
                     )
                 ),
                 Bullet(text = "Review your own code before to start")
@@ -647,53 +592,12 @@ fun intro(): Slides = slides {
         }
     }
 
-    slide(Class.Overlay, Class.WithCode) {
+    slide(Class.NoBackground, Class.WithCode) {
         title = "What _not_ to look at"
         bullets {
             stepped = true
             items = listOf(
-                Bullet(text = "Formatting and code style", subItems = listOf(Bullet(text = "Automation")))
-            )
-        }
-    }
-
-    slide(Class.Overlay) {
-        quote {
-            text = "The most powerful tool we have as developers is automation"
-            author = "Scott Hanselman"
-        }
-        background {
-            image = "bran-carry.jpg"
-        }
-    }
-
-    slide(Class.NoBackground, Class.WithCode) {
-        title = "Automation"
-        bullets {
-            stepped = true
-            items = listOf(
-                Bullet(text = "Lint, Checkstyle, Inspectors…"),
-                Bullet(text = "Tests execution"),
-                Bullet(text = "Setup environments"),
-                Bullet(text = "Generate versions"),
-                Bullet(text = "Publish versions"),
-                Bullet(
-                    true, "Custom tasks", listOf(
-                        Bullet(text = "i.e: Remove conversation"),
-                        Bullet(text = "i.e: Login"),
-                        Bullet(text = "...")
-                    )
-                )
-            )
-        }
-    }
-
-    slide(Class.NoBackground, Class.WithCode) {
-        title = "What _not_ to look at"
-        bullets {
-            stepped = false
-            items = listOf(
-                Bullet(false, "Formatting and code style", listOf(Bullet(false, text = "Automation"))),
+                Bullet(text = "Formatting and code style", subItems = listOf(Bullet(text = "Automation"))),
                 Bullet(text = "Further than diff", subItems = listOf(Bullet(text = "Create a technical debt")))
             )
         }
@@ -725,7 +629,7 @@ fun intro(): Slides = slides {
     }
 
     slide(Class.Overlay) {
-        title = "Don't be a _nazi_"
+        title = "Don't be _Cersei_"
         background {
             image = "cersei.jpg"
         }
@@ -738,7 +642,6 @@ fun intro(): Slides = slides {
             stepped = true
             items = listOf(
                 Bullet(text = "What's important to your team?"),
-                Bullet(text = "What's important to your company?"),
                 Bullet(
                     true, "How it solves the problem", listOf(
                         Bullet(text = "Aha! Effect")
@@ -794,16 +697,8 @@ fun intro(): Slides = slides {
                 Bullet(text = "Reuse warning"),
                 Bullet(text = "SOLID"),
                 Bullet(text = "Agreements (modifiable)"),
-                Bullet(text = "..."),
-                Bullet(text = "Visual Review")
+                Bullet(text = "...")
             )
-        }
-    }
-
-    slide(Class.Overlay) {
-        title = "_Visual_ review"
-        background {
-            image = "blind.jpg"
         }
     }
 
@@ -885,6 +780,7 @@ fun intro(): Slides = slides {
 
     slide(Class.Overlay) {
         title = "Humour"
+        subtitle = "_(With caution)_"
         background {
             image = "missandei.jpg"
         }
@@ -893,40 +789,13 @@ fun intro(): Slides = slides {
     slide(Class.NoBackground) {
         p {
             comment(stepped = false) {
-                image = "mini-danny.jpg"
-                text =
-                    "I think this could be done with FP instead of RxJava<br/>What do you think about to remove the Observable?"
-            }
-        }
-
-        p {
-            image(value = "git-fire.gif")
-        }
-    }
-
-    slide(Class.NoBackground) {
-        p {
-            comment(stepped = false) {
                 image = "mini-jon.jpg"
-                text = "With this you get the Jenkins blue ball back in the release branch"
+                text = "You have fixed Continous Integration"
             }
         }
 
         p {
             image(value = "gif-kiss.gif")
-        }
-    }
-
-    slide(Class.NoBackground) {
-        p {
-            comment(stepped = false) {
-                image = "mini-danny.jpg"
-                text = "Don't forget to do this to the WebRTC library"
-            }
-        }
-
-        p {
-            image(value = "gif-out.gif")
         }
     }
 
@@ -956,14 +825,9 @@ fun intro(): Slides = slides {
             items = listOf(
                 Bullet(text = "\uD83E\uDD14 Question"),
                 Bullet(text = "☝️ Request"),
-                Bullet(text = "\uD83C\uDFA8️ Flattery"),
-                Bullet(text = "\uD83D\uDC1B Bug"),
                 Bullet(text = "\uD83D\uDEA7 Work in progress"),
                 Bullet(text = "\uD83D\uDCA9 Need work"),
-                Bullet(text = "\uD83D\uDCA1 Propose change"),
-                Bullet(text = "\uD83D\uDD27 Requires action"),
-                Bullet(text = "\uD83D\uDCCC Out of scope"),
-                Bullet(text = "\uD83E\uDD16 Automatic convertion")
+                Bullet(text = "...")
             )
         }
     }
@@ -991,51 +855,6 @@ fun intro(): Slides = slides {
         }
         background {
             image = "diego.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        quote {
-            text =
-                "The Pope's name was controversial, due he is argentininan, people though he will call himself Jesus II"
-        }
-        background {
-            image = "pope.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        title = "Game of Comments"
-        background {
-            image = "throne-ned.jpg"
-        }
-    }
-
-    slide(Class.NoBackground) {
-        p {
-            comment {
-                text = "The naming of this variable could be a little confusing, I don’t fully understand it. " +
-                        "You always do the same"
-            }
-        }
-    }
-
-    slide(Class.NoBackground) {
-        p {
-            comment {
-                text = "I do like this solution a lot, the strategy pattern it’s pretty well used, " +
-                        "but you didn't thought this product it's going to be simplified."
-            }
-        }
-    }
-
-    slide(Class.NoBackground) {
-        p {
-            comment {
-                text = "What do you think if we add a command pattern to handle the actions?\n" +
-                        "In TICKET-1234 we will have to add a new type of product and the command pattern could help us, " +
-                        "that makes sense to you?\n"
-            }
         }
     }
 
@@ -1141,15 +960,6 @@ fun intro(): Slides = slides {
 
     slide(Class.Overlay) {
         quote {
-            text = "I just want to close my ticket"
-        }
-        background {
-            image = "jon-crying.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        quote {
             text = "Today I've had a bad day. Let's do a Code Review"
         }
         background {
@@ -1172,28 +982,6 @@ fun intro(): Slides = slides {
     }
 
     slide(Class.Overlay) {
-        title = "No place for _ego_"
-        background {
-            image = "gif-ego.gif"
-        }
-    }
-
-    slide(Class.Overlay) {
-        title = "No place for very _sensitive_"
-        background {
-            image = "gif-jon-sensible.gif"
-        }
-    }
-
-    slide(Class.Overlay) {
-        title = "Not for _SDD_"
-        subtitle = "Schedule \uD83D\uDDD3 Driven Development"
-        background {
-            image = "gif-white-walker.gif"
-        }
-    }
-
-    slide(Class.Overlay) {
         title = "It can _break_ your team"
         background {
             image = "knives.jpg"
@@ -1208,7 +996,7 @@ fun intro(): Slides = slides {
     }
 
     slide(Class.Overlay) {
-        title = "Use it to _improve_ your company, your code and yourself"
+        title = "Use it to _improve_ your _company_, your _code_ and _yourself_"
         background {
             image = ""
         }

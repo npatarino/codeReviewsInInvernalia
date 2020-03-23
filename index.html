@@ -33,9 +33,6 @@
 </section>
 <section data-background-image="slides/images/targaryen-consulting.jpg" data-state="section-bottom">
 </section>
-<section data-background-image="slides/images/trees.jpg" data-state="imageable section-bottom">
-<h1 class="null"><i>Winterfell</i> project</h1>
-</section>
 <section data-background-image="slides/images/baelish.jpg" data-state="middle-right text-for-pink">
 <h1 class="null">Peter <i>Baelish</i></h1>
 <h2 class="null">Project Manager</h2>
@@ -55,9 +52,6 @@
 <section data-background-image="slides/images/jon.jpg" data-state="middle-right text-for-pistacho">
 <h1 class="null">Jon <i>Snow</i></h1>
 <h2 class="null">Junior Developer</h2>
-</section>
-<section data-background-image="slides/images/trees.jpg" data-state="imageable">
-<h1 class="null"><i>Winterfell</i> project</h1>
 </section>
 <section data-background-image="slides/images/danny-mini-dragon.jpg" data-state="imageable section-bottom"><img src="slides/images/story.jpg" class=" " />
 </section>
@@ -97,7 +91,7 @@ function authenticateUser(username, password) {
 <section  data-state="with-code">
 <div class="fragment comment">
 <div class="comment-wrapper"><img src="slides/images/mini-danny.jpg" class="comment-image" />
-<div class="comment-text">Respect me!<br/>I’m Daenerys Webstorm of the tech crew Targaryen, the First of Her Team, The Un-refactored, Queen of the Smells, the SOLID and the First Commit, Queen of Merge, Khaleesi of the Great Injector, Protector of the Realm™, Lady Regnant of the Seven Frameworks, Breaker of Method Chaining and Mother of Dagger</div></div></div>
+<div class="comment-text">You have to respect me!<br/>I’m Daenerys Webstorm of the tech crew Targaryen, the First of Her Team, The Un-refactored, Queen of the Smells, the SOLID and the First Commit, Lady Regnant of the Seven Frameworks, Breaker of Method Chaining and Mother of Dagger</div></div></div>
 </section>
 <section  data-state="with-code">
 <div class="fragment comment">
@@ -204,44 +198,6 @@ function authenticateUser(username, password) {
 <section data-background-image="slides/images/samsa-joffrey.jpg" data-state="imageable">
 <h1 class="null">Commits</h1>
 </section>
-<section data-background-image="slides/images/danny-mini-dragon.jpg" data-state="imageable section-bottom"><img src="slides/images/story.jpg" class=" " />
-</section>
-<section  data-state="no-bg">
-<h1 class="null">Jon Snow's <i>commit</i></h1>
-</section>
-<section  data-state="no-bg">
-<code data-trim class="CodeMirror arrow" data-executable="false">
-commit 070078158a5b3168ec515102a65284fhjf1958e6
-Author: Jon Snow &lt;snow@targaryenconsulting.com&gt;
-Date:   Mon Nov 27 15:43:21 2017 +0100
-
-"Fix dragon's bug"
-
-</code>
-
-</section>
-<section  data-state="no-bg">
-<h1 class="null">Tyrion's <i>commit</i></h1>
-</section>
-<section  data-state="no-bg">
-<code data-trim class="CodeMirror arrow" data-executable="false">
-commit 070078158a5b3168ec515102a65284fhjf1958e6
-Author: Tyrion&lt;tyrion@targaryenconsulting.com&gt;
-Date:   Mon Nov 27 15:43:21 2017 +0100
-
-Refill the dragon’s fire before it gets empty:
-
-The dragon's fire were filled up after the deposit it's empty. It causes
-that for a short time the dragon had no fire. Let’s fill it up earlier.
-
-* Add fire listener into a fire store to detect the changes in the deposit
-* Create a DepositAction with strategy pattern to decoupled the action of
-refill and others from the dragon itself.
-https://github.com/targaryenConsulting/ID-124
-
-</code>
-
-</section>
 <section  data-state="no-bg">
 <h1 class="null"><i>Top commits</i> Github</h1>
 </section>
@@ -252,7 +208,7 @@ https://github.com/targaryenConsulting/ID-124
 <h1 class="null"><i>To-Do</i> list for review</h1>
 <ul class="null"><li  class="fragment"  >Write a good title and description 
 <ul class="null"><li  class="fragment"  >Remember good commits? </li></ul></li><li  class="fragment"  >Reasonable due time </li><li  class="fragment"  >Do you have a Code Review template? </li><li  class="fragment"  >Help to review it 
-<ul class="null"><li  class="fragment"  >Could you provide some screenshots? </li><li  class="fragment"  >Ask for specific feedback </li><li  class="fragment"  >Explain how to test it </li></ul></li><li  class="fragment"  >Review your own code before to start </li></ul>
+<ul class="null"><li  class="fragment"  >Could you provide some screenshots? </li><li  class="fragment"  >Ask for specific feedback </li><li  class="fragment"  >Explain how to test it (screenshots, gifs, APKs...) </li></ul></li><li  class="fragment"  >Review your own code before to start </li></ul>
 </section>
 <section data-background-image="slides/images/dothraki.jpg" data-state="imageable">
 <h1 class="null">Choose <i>reviewer</i></h1>
@@ -291,24 +247,10 @@ https://github.com/targaryenConsulting/ID-124
 <section data-background-image="slides/images/wine.jpg" data-state="imageable">
 <h1 class="null">Take a <i>coffee</i></h1>
 </section>
-<section  data-state="imageable with-code">
+<section  data-state="no-bg with-code">
 <h1 class="null">What <i>not</i> to look at</h1>
 <ul class="null"><li  class="fragment"  >Formatting and code style 
-<ul class="null"><li  class="fragment"  >Automation </li></ul></li></ul>
-</section>
-<section data-background-image="slides/images/bran-carry.jpg" data-state="imageable">
-<blockquote class="null">The most powerful tool we have as developers is automation
-<em class="null">Scott Hanselman</em></blockquote>
-</section>
-<section  data-state="no-bg with-code">
-<h1 class="null">Automation</h1>
-<ul class="null"><li  class="fragment"  >Lint, Checkstyle, Inspectors… </li><li  class="fragment"  >Tests execution </li><li  class="fragment"  >Setup environments </li><li  class="fragment"  >Generate versions </li><li  class="fragment"  >Publish versions </li><li  class="fragment"  >Custom tasks 
-<ul class="null"><li  class="fragment"  >i.e: Remove conversation </li><li  class="fragment"  >i.e: Login </li><li  class="fragment"  >... </li></ul></li></ul>
-</section>
-<section  data-state="no-bg with-code">
-<h1 class="null">What <i>not</i> to look at</h1>
-<ul class="null"><li   >Formatting and code style 
-<ul class="null"><li   >Automation </li></ul></li><li  class="fragment"  >Further than diff 
+<ul class="null"><li  class="fragment"  >Automation </li></ul></li><li  class="fragment"  >Further than diff 
 <ul class="null"><li  class="fragment"  >Create a technical debt </li></ul></li></ul>
 </section>
 <section data-background-image="slides/images/debts.jpg" >
@@ -321,11 +263,11 @@ https://github.com/targaryenConsulting/ID-124
 <ul class="null"><li  class="fragment"  >Everyone has their own taste about code </li></ul></li></ul>
 </section>
 <section data-background-image="slides/images/cersei.jpg" data-state="imageable">
-<h1 class="null">Don't be a <i>nazi</i></h1>
+<h1 class="null">Don't be <i>Cersei</i></h1>
 </section>
 <section  data-state="no-bg with-code">
 <h1 class="null">What to <i>look</i> at</h1>
-<ul class="null"><li  class="fragment"  >What's important to your team? </li><li  class="fragment"  >What's important to your company? </li><li  class="fragment"  >How it solves the problem 
+<ul class="null"><li  class="fragment"  >What's important to your team? </li><li  class="fragment"  >How it solves the problem 
 <ul class="null"><li  class="fragment"  >Aha! Effect </li></ul></li><li  class="fragment"  >Tests </li><li  class="fragment"  >Usability Code </li></ul>
 </section>
 <section data-background-image="slides/images/gif-valirion-fire.gif" data-state="imageable">
@@ -341,10 +283,7 @@ https://github.com/targaryenConsulting/ID-124
 </section>
 <section  data-state="no-bg with-code">
 <h1 class="null">What to <i>looking</i> for</h1>
-<ul class="null"><li  class="fragment"  >Design Patterns </li><li  class="fragment"  >Abstractions </li><li  class="fragment"  >Good data structures </li><li  class="fragment"  >Reuse warning </li><li  class="fragment"  >SOLID </li><li  class="fragment"  >Agreements (modifiable) </li><li  class="fragment"  >... </li><li  class="fragment"  >Visual Review </li></ul>
-</section>
-<section data-background-image="slides/images/blind.jpg" data-state="imageable">
-<h1 class="null"><i>Visual</i> review</h1>
+<ul class="null"><li  class="fragment"  >Design Patterns </li><li  class="fragment"  >Abstractions </li><li  class="fragment"  >Good data structures </li><li  class="fragment"  >Reuse warning </li><li  class="fragment"  >SOLID </li><li  class="fragment"  >Agreements (modifiable) </li><li  class="fragment"  >... </li></ul>
 </section>
 <section data-background-image="slides/images/letter.jpg" data-state="imageable">
 <h1 class="null">Commenting</h1>
@@ -376,24 +315,13 @@ https://github.com/targaryenConsulting/ID-124
 </section>
 <section data-background-image="slides/images/missandei.jpg" data-state="imageable">
 <h1 class="null">Humour</h1>
-</section>
-<section  data-state="no-bg">
-<div class=" comment">
-<div class="comment-wrapper"><img src="slides/images/mini-danny.jpg" class="comment-image" />
-<div class="comment-text">I think this could be done with FP instead of RxJava<br/>What do you think about to remove the Observable?</div></div></div>
-<img src="slides/images/git-fire.gif" class="fragment " />
+<h2 class="null"><i>(With caution)</i></h2>
 </section>
 <section  data-state="no-bg">
 <div class=" comment">
 <div class="comment-wrapper"><img src="slides/images/mini-jon.jpg" class="comment-image" />
-<div class="comment-text">With this you get the Jenkins blue ball back in the release branch</div></div></div>
+<div class="comment-text">You have fixed Continous Integration</div></div></div>
 <img src="slides/images/gif-kiss.gif" class="fragment " />
-</section>
-<section  data-state="no-bg">
-<div class=" comment">
-<div class="comment-wrapper"><img src="slides/images/mini-danny.jpg" class="comment-image" />
-<div class="comment-text">Don't forget to do this to the WebRTC library</div></div></div>
-<img src="slides/images/gif-out.gif" class="fragment " />
 </section>
 <section  data-state="no-bg">
 <div class=" comment">
@@ -405,7 +333,7 @@ https://github.com/targaryenConsulting/ID-124
 <h1 class="null">Emojis</h1>
 </section>
 <section  data-state="no-bg">
-<ul class="null"><li  class="fragment"  >🤔 Question </li><li  class="fragment"  >☝️ Request </li><li  class="fragment"  >🎨️ Flattery </li><li  class="fragment"  >🐛 Bug </li><li  class="fragment"  >🚧 Work in progress </li><li  class="fragment"  >💩 Need work </li><li  class="fragment"  >💡 Propose change </li><li  class="fragment"  >🔧 Requires action </li><li  class="fragment"  >📌 Out of scope </li><li  class="fragment"  >🤖 Automatic convertion </li></ul>
+<ul class="null"><li  class="fragment"  >🤔 Question </li><li  class="fragment"  >☝️ Request </li><li  class="fragment"  >🚧 Work in progress </li><li  class="fragment"  >💩 Need work </li><li  class="fragment"  >... </li></ul>
 </section>
 <section data-background-image="slides/images/obelisco.jpg" data-state="imageable">
 <h1 class="null">Ego</h1>
@@ -415,29 +343,6 @@ https://github.com/targaryenConsulting/ID-124
 </section>
 <section data-background-image="slides/images/diego.jpg" data-state="imageable">
 <blockquote class="null">What a ego is?<br>The argentinian that everyone has inside</blockquote>
-</section>
-<section data-background-image="slides/images/pope.jpg" data-state="imageable">
-<blockquote class="null">The Pope's name was controversial, due he is argentininan, people though he will call himself Jesus II</blockquote>
-</section>
-<section data-background-image="slides/images/throne-ned.jpg" data-state="imageable">
-<h1 class="null">Game of Comments</h1>
-</section>
-<section  data-state="no-bg">
-<div class="fragment comment">
-<div class="comment-wrapper">
-<div class="comment-text">The naming of this variable could be a little confusing, I don’t fully understand it. You always do the same</div></div></div>
-</section>
-<section  data-state="no-bg">
-<div class="fragment comment">
-<div class="comment-wrapper">
-<div class="comment-text">I do like this solution a lot, the strategy pattern it’s pretty well used, but you didn't thought this product it's going to be simplified.</div></div></div>
-</section>
-<section  data-state="no-bg">
-<div class="fragment comment">
-<div class="comment-wrapper">
-<div class="comment-text">What do you think if we add a command pattern to handle the actions?
-In TICKET-1234 we will have to add a new type of product and the command pattern could help us, that makes sense to you?
-</div></div></div>
 </section>
 <section data-background-image="slides/images/linus.jpg" data-state="imageable">
 <blockquote class="null">There aren't enough swear-words in the English language, so now I'll have to call you perkeleen vittupää just to express my disgust and frustration with this crap
@@ -473,9 +378,6 @@ In TICKET-1234 we will have to add a new type of product and the command pattern
 <section data-background-image="slides/images/ramsay-face.jpg" data-state="imageable">
 <blockquote class="null">I'll do the Terms of Service review</blockquote>
 </section>
-<section data-background-image="slides/images/jon-crying.jpg" data-state="imageable">
-<blockquote class="null">I just want to close my ticket</blockquote>
-</section>
 <section data-background-image="slides/images/danny-bad.jpg" data-state="imageable">
 <blockquote class="null">Today I've had a bad day. Let's do a Code Review</blockquote>
 </section>
@@ -485,16 +387,6 @@ In TICKET-1234 we will have to add a new type of product and the command pattern
 <section data-background-image="slides/images/throne.jpg" data-state="imageable">
 <h1 class="null">I's not for <i>everyone</i></h1>
 </section>
-<section data-background-image="slides/images/gif-ego.gif" data-state="imageable">
-<h1 class="null">No place for <i>ego</i></h1>
-</section>
-<section data-background-image="slides/images/gif-jon-sensible.gif" data-state="imageable">
-<h1 class="null">No place for very <i>sensitive</i></h1>
-</section>
-<section data-background-image="slides/images/gif-white-walker.gif" data-state="imageable">
-<h1 class="null">Not for <i>SDD</i></h1>
-<h2 class="null">Schedule 🗓 Driven Development</h2>
-</section>
 <section data-background-image="slides/images/knives.jpg" data-state="imageable">
 <h1 class="null">It can <i>break</i> your team</h1>
 </section>
@@ -502,7 +394,7 @@ In TICKET-1234 we will have to add a new type of product and the command pattern
 <h1 class="null">Be <i>thankful</i> for the feedback</h1>
 </section>
 <section  data-state="imageable">
-<h1 class="null">Use it to <i>improve</i> your company, your code and yourself</h1>
+<h1 class="null">Use it to <i>improve</i> your _company_, your _code_ and _yourself_</h1>
 </section>
 <section data-background-image="slides/images/arguing.jpg" >
 </section>
