@@ -249,20 +249,8 @@ fun intro(): Slides = slides {
         }
     }
 
-    slide(Class.WithCode) {
+    slide() {
         title = "_Formal_ Code Review"
-        p {
-            bullets {
-                stepped = true
-
-                items = listOf(
-                    Bullet(text = "Printed copies of code"),
-                    Bullet(text = "Multiple participants"),
-                    Bullet(text = "Multiple phases"),
-                    Bullet(text = "Fagan inspection")
-                )
-            }
-        }
     }
 
     slide(Class.NoBackground, Class.WithCode) {
@@ -316,127 +304,6 @@ fun intro(): Slides = slides {
         }
         background {
             image = "fisheye.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        title = "Type of _reviewers_"
-        background {
-            image = "deaths.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        title = "Best _Friend_ Forever"
-        background {
-            image = "sam.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        bullets {
-            stepped = true
-            items = listOf(
-                Bullet(text = "Doesn't write meaningful comments"),
-                Bullet(text = "Doesn't look very deep"),
-                Bullet(text = "Just approves to unlock the ticket")
-            )
-        }
-        background {
-            image = "sam.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        title = "Citadel _Maesters_"
-        background {
-            image = "citadel.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        bullets {
-            stepped = true
-            items = listOf(
-                Bullet(text = "Everything need to approved by them"),
-                Bullet(text = "They are the only authority for decisions")
-            )
-        }
-        background {
-            image = "citadel.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        title = "Carefree"
-        background {
-            image = "robert.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        bullets {
-            stepped = true
-            items = listOf(
-                Bullet(text = "Approves to avoid to look the code"),
-                Bullet(text = "Approves after someone else approves"),
-                Bullet(text = "Thinks Code Reviews aren't helpful"),
-                Bullet(text = "Thinks Code Reviews are just a formality")
-            )
-        }
-        background {
-            image = "robert.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        title = "Son of the _incest_"
-        background {
-            image = "joffrey.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        bullets {
-            stepped = true
-            items = listOf(
-                Bullet(text = "Thinks he has all the truth"),
-                Bullet(text = "His solutions is the best, always"),
-                Bullet(text = "Any change he suggests should be done"),
-                Bullet(text = "He is condescend to his peers")
-            )
-        }
-        background {
-            image = "joffrey.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        title = "The _King's_ hand"
-        background {
-            image = "ned.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        bullets {
-            stepped = true
-            items = listOf(
-                Bullet(text = "Cares about software quality"),
-                Bullet(text = "Knows he could learn from peers"),
-                Bullet(text = "Knows his comments could help someone"),
-                Bullet(text = "Respect company, code and developers")
-            )
-        }
-        background {
-            image = "ned.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        title = "_Who_ you wanna be?"
-        background {
-            image = "faces.jpg"
         }
     }
 
@@ -561,6 +428,127 @@ fun intro(): Slides = slides {
         title = "Review"
         background {
             image = "gif-dragons.gif"
+        }
+    }
+
+    slide(Class.Overlay) {
+        title = "Type of _reviewers_"
+        background {
+            image = "deaths.jpg"
+        }
+    }
+
+    slide(Class.Overlay) {
+        title = "Best _Friend_ Forever"
+        background {
+            image = "sam.jpg"
+        }
+    }
+
+    slide(Class.Overlay) {
+        bullets {
+            stepped = true
+            items = listOf(
+                Bullet(text = "Doesn't write meaningful comments"),
+                Bullet(text = "Doesn't look very deep"),
+                Bullet(text = "Just approves to unlock the ticket")
+            )
+        }
+        background {
+            image = "sam.jpg"
+        }
+    }
+
+    slide(Class.Overlay) {
+        title = "Citadel _Maesters_"
+        background {
+            image = "citadel.jpg"
+        }
+    }
+
+    slide(Class.Overlay) {
+        bullets {
+            stepped = true
+            items = listOf(
+                Bullet(text = "Everything need to approved by them"),
+                Bullet(text = "They are the only authority for decisions")
+            )
+        }
+        background {
+            image = "citadel.jpg"
+        }
+    }
+
+    slide(Class.Overlay) {
+        title = "Carefree"
+        background {
+            image = "robert.jpg"
+        }
+    }
+
+    slide(Class.Overlay) {
+        bullets {
+            stepped = true
+            items = listOf(
+                Bullet(text = "Approves to avoid to look the code"),
+                Bullet(text = "Approves after someone else approves"),
+                Bullet(text = "Thinks Code Reviews aren't helpful"),
+                Bullet(text = "Thinks Code Reviews are just a formality")
+            )
+        }
+        background {
+            image = "robert.jpg"
+        }
+    }
+
+    slide(Class.Overlay) {
+        title = "Son of the _incest_"
+        background {
+            image = "joffrey.jpg"
+        }
+    }
+
+    slide(Class.Overlay) {
+        bullets {
+            stepped = true
+            items = listOf(
+                Bullet(text = "Thinks he has all the truth"),
+                Bullet(text = "His solutions is the best, always"),
+                Bullet(text = "Any change he suggests should be done"),
+                Bullet(text = "He is condescend to his peers")
+            )
+        }
+        background {
+            image = "joffrey.jpg"
+        }
+    }
+
+    slide(Class.Overlay) {
+        title = "The _King's_ hand"
+        background {
+            image = "ned.jpg"
+        }
+    }
+
+    slide(Class.Overlay) {
+        bullets {
+            stepped = true
+            items = listOf(
+                Bullet(text = "Cares about software quality"),
+                Bullet(text = "Knows he could learn from peers"),
+                Bullet(text = "Knows his comments could help someone"),
+                Bullet(text = "Respect company, code and developers")
+            )
+        }
+        background {
+            image = "ned.jpg"
+        }
+    }
+
+    slide(Class.Overlay) {
+        title = "_Who_ you wanna be?"
+        background {
+            image = "faces.jpg"
         }
     }
 
