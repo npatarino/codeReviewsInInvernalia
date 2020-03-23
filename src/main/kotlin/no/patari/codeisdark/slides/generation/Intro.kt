@@ -21,6 +21,13 @@ fun intro(): Slides = slides {
         }
     }
 
+    slide(Class.Overlay) {
+        title = "#YoMeQuedoEnCasaGDG"
+        background {
+            image = "buenos-aires.jpg"
+        }
+    }
+
     slide {
         title = "_Disclaimer_"
     }
