@@ -38,30 +38,6 @@ fun intro(): Slides = slides {
         }
     }
 
-    slide(Class.TitleRight, Class.Custom("text-for-pink")) {
-        title = "Peter _Baelish_"
-        subtitle = "Project Manager"
-        background {
-            image = "baelish.jpg"
-        }
-    }
-
-    slide(Class.TitleLeft, Class.Custom("text-for-salmon")) {
-        title = "Ramsay _Bolton_"
-        subtitle = "Quality Assurance"
-        background {
-            image = "ramsay.jpg"
-        }
-    }
-
-    slide(Class.TitleLeft, Class.Custom("text-for-purple")) {
-        title = "Walker _White_"
-        subtitle = "UX / UI"
-        background {
-            image = "white-walker-ux.jpg"
-        }
-    }
-
     slide(Class.TitleLeft, Class.Custom("text-for-yellow")) {
         title = "Daenerys"
         subtitle = "Senior Full Stack<br/>Developer"
@@ -198,10 +174,8 @@ fun intro(): Slides = slides {
                 stepped = true
                 items = listOf(
                     Bullet(text = "Increase software quality"),
-                    Bullet(text = "Find bugs before release"),
                     Bullet(text = "Make code maintainable"),
                     Bullet(text = "Create team foundations"),
-                    Bullet(text = "Create Code Style Guidelines"),
                     Bullet(text = "...")
                 )
             }
@@ -216,9 +190,7 @@ fun intro(): Slides = slides {
                 items = listOf(
                     Bullet(text = "Learn from peers"),
                     Bullet(text = "Gain knowledge about your business"),
-                    Bullet(text = "Gives you visibility in your company"),
                     Bullet(text = "Helps mentoring (mentor & mentee)"),
-                    Bullet(text = "Shared responsibility"),
                     Bullet(text = "...")
                 )
             }
@@ -233,8 +205,6 @@ fun intro(): Slides = slides {
                 items = listOf(
                     Bullet(text = "Learn the value of constructive criticism"),
                     Bullet(text = "Improves your soft skills"),
-                    Bullet(text = "Makes you be better developer by (auto) pressure"),
-                    Bullet(text = "Makes you more empathetic"),
                     Bullet(text = "Learn how to give feedback"),
                     Bullet(text = "...")
                 )
@@ -330,36 +300,10 @@ fun intro(): Slides = slides {
         bullets {
             stepped = true
             items = listOf(
-                Bullet(text = "\"Initial commit\""),
                 Bullet(text = "\"Update README.md\""),
-                Bullet(text = "\"Dummy\""),
                 Bullet(text = "\"Fix\""),
                 Bullet(text = "\"Tests\""),
                 Bullet(text = "\"*** empty log message ***\"")
-            )
-        }
-    }
-
-    slide(Class.NoBackground, Class.WithCode) {
-        title = "_To-Do_ list for review"
-        bullets {
-            stepped = true
-            items = listOf(
-                Bullet(
-                    true,
-                    "Write a good title and description",
-                    listOf(Bullet(text = "Remember good commits?"))
-                ),
-                Bullet(text = "Reasonable due time"),
-                Bullet(text = "Do you have a Code Review template?"),
-                Bullet(
-                    true, "Help to review it", listOf(
-                        Bullet(text = "Could you provide some screenshots?"),
-                        Bullet(text = "Ask for specific feedback"),
-                        Bullet(text = "Explain how to test it (screenshots, gifs, APKs...)")
-                    )
-                ),
-                Bullet(text = "Review your own code before to start")
             )
         }
     }
@@ -424,8 +368,32 @@ fun intro(): Slides = slides {
         }
     }
 
+    slide(Class.NoBackground, Class.WithCode) {
+        title = "_To-Do_ list for review"
+        bullets {
+            stepped = true
+            items = listOf(
+                Bullet(
+                    true,
+                    "Write a good title and description",
+                    listOf(Bullet(text = "Remember good commits?"))
+                ),
+                Bullet(text = "Reasonable due time"),
+                Bullet(text = "Do you have a Code Review template?"),
+                Bullet(
+                    true, "Help to review it", listOf(
+                        Bullet(text = "Could you provide some screenshots?"),
+                        Bullet(text = "Ask for specific feedback"),
+                        Bullet(text = "Explain how to test it (screenshots, gifs, APKs...)")
+                    )
+                ),
+                Bullet(text = "Review your own code before to start")
+            )
+        }
+    }
+
     slide(Class.Overlay) {
-        title = "Review"
+        title = "Reviewing"
         background {
             image = "gif-dragons.gif"
         }
@@ -542,6 +510,13 @@ fun intro(): Slides = slides {
         }
         background {
             image = "ned.jpg"
+        }
+    }
+
+    slide(Class.Overlay) {
+        title = "Type of _reviewers_"
+        background {
+            image = "deaths.jpg"
         }
     }
 
@@ -946,15 +921,6 @@ fun intro(): Slides = slides {
 
     slide(Class.Overlay) {
         quote {
-            text = "I'll do the Terms of Service review"
-        }
-        background {
-            image = "ramsay-face.jpg"
-        }
-    }
-
-    slide(Class.Overlay) {
-        quote {
             text = "Today I've had a bad day. Let's do a Code Review"
         }
         background {
@@ -991,7 +957,7 @@ fun intro(): Slides = slides {
     }
 
     slide(Class.Overlay) {
-        title = "Use it to _improve_ your _company_, your _code_ and _yourself_"
+        title = "Use it to _improve_ your company, your code and yourself"
         background {
             image = ""
         }
@@ -1005,7 +971,37 @@ fun intro(): Slides = slides {
 
     slide {
         background {
+            image = "talk1.jpg"
+        }
+    }
+
+    slide {
+        background {
+            image = "talk2.jpg"
+        }
+    }
+
+    slide {
+        background {
+            image = "talk3.jpg"
+        }
+    }
+
+    slide {
+        background {
+            image = "tyrion-door.jpg"
+        }
+    }
+
+    slide {
+        background {
             image = "kit-danny-yes.jpg"
+        }
+    }
+
+    slide {
+        background {
+            image = "jon-daenerys-experts.jpg"
         }
     }
 
