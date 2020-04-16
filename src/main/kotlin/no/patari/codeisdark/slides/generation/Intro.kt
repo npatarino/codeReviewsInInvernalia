@@ -46,11 +46,23 @@ fun intro(): Slides = slides {
         }
     }
 
+    slide {
+        background {
+            image = "dracarys.gif"
+        }
+    }
+
     slide(Class.TitleRight, Class.Custom("text-for-pistacho")) {
         title = "Jon _Snow_"
         subtitle = "Junior Developer"
         background {
             image = "jon.jpg"
+        }
+    }
+
+    slide {
+        background {
+            image = "faces.mp4"
         }
     }
 
