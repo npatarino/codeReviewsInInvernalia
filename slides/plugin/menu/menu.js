@@ -5,7 +5,7 @@
  */
 
 var RevealMenu = window.RevealMenu || (function(){
-    var isLightMode = true;
+    var isLightMode = false;
 	var config = Reveal.getConfig();
 	var options = config.menu || {};
 	options.path = options.path || scriptPath() || 'plugin/menu/';
