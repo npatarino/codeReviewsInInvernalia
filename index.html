@@ -25,35 +25,107 @@
         <section data-background-image="slides/images/cover.png">
         </section>
         <section data-background-video="slides/videos/intro-01.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                En un planeta inventado por Jorgito Requete Re Martin que, supongo, está bastante lejos, hay un continente que se llama Poniente, y ahí hay un montón de regiones conocidas como los Siete Reinos, en una de ellas hay una empresita que se llama Targaryen Consulting, y ahí dentro la tienen re clara, la tienen re clara programando, la tienen re clara con el management, la tienen re clara con los team buildings, pero con lo que no la tienen tan clara es con los Code Reviews, no te imaginás el lío que se armó con dos compañeros y una revisión.
+                <br/>
+                Por eso hoy ante todos ustedes Code Reviews en Invernalia, vení, pasá, ponete cómodo que empezamos…
+            </aside>
+        </section>
         <section data-background-video="slides/videos/intro-02.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                La cosa empezó cuando a Targaryen Consulting le llegó un proyecto nuevo, un proyecto para una app de geolocalización de los caminantes blancos, con Machine Learning, Big Data y todo, y claro en la empresa dijeron...
+            </aside>
+        </section>
         <section data-background-video="slides/videos/intro-03.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Quedate tranquilo que esto te lo tenemos en un plis, porque quién te lo iba a decir que en la primera tarea
+            </aside>
+        </section>
         <section data-background-video="slides/videos/intro-04.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Agarrate Catalina, todo empezó a desmadrarse, pero pará, porque antes de contarte eso te tengo que presentar a los dos developers que armaron todo este jaleo.
+            </aside>
+        </section>
         <section data-background-video="slides/videos/intro-05.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Por un lado tenemos a Daenerys, nuestra Senior Archi Ultra Mega Full Stack Developer con más de 15 años de experiencia demostrable y que se caracteriza por su comprensión y tolerancia con los errores de sus compañeros.
+            </aside>
+        </section>
         <section data-background-video="slides/videos/intro-06.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Y en el otro lado del ring nos encontramos con Juancito Snow, un Junior Developer recién salido de la universidad, que tras un año de Erasmus y dos asignaturas de metodologías ágiles, cree saber todo lo necesario acerca de la transformación digital, y aunque tiene menos onda que un renglón, lo compensa con sus dotes actorales y la expresividad de su cara, mirá.
+            </aside>
+        </section>
         <section data-background-image="slides/images/nico.png">
+            <aside class="notes">
+                Y ya que estamos presentando a nuestros protagonistas, aprovecho y me presento a mí mismo, así que...
+                ¡Buenas tardes!, ¡buenos días!, ¡buenas noches!
+                Para todos los que no me conocen, me llamo Nicolás Patarino, y si piensan, che, qué raro que habla este pibe, es porque soy argentino, pero si piensan, che, tampoco habla tan raro este pibe, es porque llevo 19 años en España, así que me van a perdonar pero tengo un poco de lo peor de cada país. Me podría definir como un barrabrava del software, si el desarrollo Android fuera un equipo de fútbol yo sería de los que van con pasamontañas, bengalas y gritando canciones sobre patrones de diseño y principios SOLID.
+                A nivel profesional hago mucho ruido con un teclado muy mecánico en Tuenti donde, como espero que sepan, prestamos muchísima muchísima atención a la calidad del software, aunque también pasé por un montón de otras empresas, de muchos colores y tamaños. Y si te preguntás por qué te estoy contando todo esto, es simplemente para que sepas que llevo muchos años trabajando con Code Reviews, así que esta charla se basa principalmente, en mi experiencia con las reviews, así que vamos a intentar profundizar lo máximo posible en lo que yo considero los pasos importantes de una buena revisión.
+            </aside>
+        </section>
+        <section data-background-image="slides/images/pexels-alex-nasto-582635.jpg">
+            <aside class="notes">
+                Por cierto, que sepan a mis charlas las llamo Charlas Zippo, no porque tengan mucha chispa como los mecheros sino porque vienen con garantía de por vida, así que si al terminar la charla o dentro de 3 años alguno tiene alguna duda, pregunta o simplemente quiere tomarse un Fernet o un mate conmigo, sólo tiene que escribirme por Gmail o por cualquier red social al usuario npatarino.
+            </aside>
+        </section>
+        <section data-background-image="slides/images/nico.png">
+            <aside class="notes">
+                Por ejemplo si hablamos de Twitter y parafraseando a un antiguo político Argentino les puedo decir, Síganme, no los voy a defraudar. Por cierto, El político argentino era político y argentino, así que, sí, claramente, nos defraudó.
+                Pero ya basta de presentaciones, porque ahora ya me conocen a mí, y más importante conocen a los developers de nuestra historia, así que sigamos con su aventura en Invernalia.
+            </aside>
         </section>
         <section data-background-video="slides/videos/intro-07.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Y con Juancito es con quien se pudrió todo, resulta que él agarró un ticket, y se puso a laburar. Tiró unas cuantas líneas por acá, unas cuantas líneas por allá, y cuando lo tenía todo pipicucú, creó una Code Review y se la pasó a Daenerys.
+            </aside>
+        </section>
         <section data-background-video="slides/videos/intro-08.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Así que Juancito se puso a leer los comentarios de Daenerys, que esto es una basura, que es el peor código que vi en mi vida, que Hodor programa mejor vos. Yo como Senior, te ordeno que lo hagas todo de vuelta desde el principio. Y claro, Juancito de las Nieves se enfado un montón, tenía que cerrar el ticket esa misma tarde y si volvía a empezar no le iba a dar tiempo. Así que en lugar de debatir civilizadamente le respondió con un; "¿No será acaso, quizás, tal vez, quién sabe, que vos sos una vieja desactualizada que está en contra de cualquier lenguaje que no sea Cobol, y por eso me pedís que cambie mi código?".
+            </aside>
+        </section>
         <section data-background-video="slides/videos/intro-09.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Obviamente a Danny no le gustó nada y le dijo, Che, pibe, bajá un cambio. ¿Sabés quién soy yo? ¿Te lo tengo que explicar?
+            </aside>
+        </section>
         <section data-background-video="slides/videos/intro-10.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+        </section>
         <section data-background-video="slides/videos/intro-11.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Entonces Juancito, más calmado le dice que se meta sus consejos bien donde le quepan.
+            </aside>
+        </section>
         <section data-background-video="slides/videos/intro-12.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Como el equipo iba de mal en peor, llegó Ygritte, la Tech Lead, y queriendo apaciguar un poco las aguas, añadió su característico [You know nothing Jon Snow], uh en realidad no ayudó nada la pelirroja
+            </aside>
+        </section>
         <section data-background-video="slides/videos/intro-13.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                y ahí ya fue, se armó el bardo, la hecatombe, la debacle total. Por lo que con el jaleo que tenían en la oficina, el CTO sólo podía hacer una cosa, llamar al Agile Coach más Agile y más Coach de todo Invernalia, y mi personaje más favorito de mis personajes favoritos, Tyrion Lannister. Y él será el encargado de solucionar el embrollo que estaba rompiendo el equipo, amargando a los developers, y sobre todo retrasando el proyecto
+            </aside>
+        </section>
         <section data-background-video="slides/videos/intro-14.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Después de hablar con unos, con otros y con otros otros, Tyrion dijo que había un problema de base y que había que empezar por el principio, así que empecemos por ahí.
+            </aside>
+        </section>
         <section data-background-image="slides/images/begining.jpg" data-state="imageable">
             <h1 class="null">Let's start from the <i>beginning</i></h1>
         </section>
@@ -88,10 +160,15 @@
             <h1 class="null"><i>Personal</i> benefits</h1>
             <ul class="null">
                 <li class="fragment">Learn the value of constructive criticism</li>
-                <li class="fragment">Improves your soft skills</li>
+                <li class="fragment">Improves your <s>soft</s> power skills</li>
                 <li class="fragment">Learn how to give feedback</li>
                 <li class="fragment">...</li>
             </ul>
+            <aside class="notes">
+                PEUMConf. 17 Octubre.
+                "Dos devs que comparten condicionales y funciones de extensión; además de promesas y futuros. Pero ese
+                futuro, se trunca cuando descubren que saben programar, pero no saben comunicarse".
+            </aside>
         </section>
         <section data-background-image="slides/images/types.jpg" data-state="imageable section-bottom">
             <h1 class="null">Types of <i>Code Review</i></h1>
@@ -117,17 +194,8 @@
         <section data-state="no-bg with-code">
             <h1 class="null">Tool <i>Assisted</i></h1>
             <ul class="null">
-                <li class="fragment">Pre Commit
-                    <ul class="null">
-                        <li class="fragment">Social Network</li>
-                    </ul>
-                </li>
-                <li class="fragment">Post Commit
-                    <ul class="null">
-                        <li class="fragment">Pull Request</li>
-                        <li class="fragment">Commit-by-commit</li>
-                    </ul>
-                </li>
+                <li class="fragment">Pull Request</li>
+                <li class="fragment">Commit-by-commit</li>
             </ul>
         </section>
         <section data-background-image="slides/images/upsource.jpg">
@@ -448,15 +516,36 @@
             <h1 class="null"><i>Problems</i> in Targaryen Consulting</h1>
         </section>
         <section data-background-video="slides/videos/war-01.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                ¡Oh! Ya hay tres personas que le dieron Approved. Le meto un approved yo también, total, nadie se va a dar cuenta
+            </aside>
+        </section>
         <section data-background-video="slides/videos/war-02.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Ella es una rockstar, ¿cómo le voy a poner un comentario yo? Na, ya fue, Approved.
+            </aside>
+        </section>
         <section data-background-video="slides/videos/war-03.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Más comentarios, ¿por qué? Yo sólo quiero cerrar mi ticket que mi jefe va a matar
+            </aside>
+        </section>
         <section data-background-video="slides/videos/war-04.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                ¡Ufff! ¡Otra review y la p***!
+            </aside>
+        </section>
         <section data-background-video="slides/videos/war-05.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                ¡Uh, qué día de mierda hoy!, ¡vamos a hacer una review!
+                Nah, esta última no, porque sino hay un problema por ahí.
+            </aside>
+        </section>
         <section data-background-image="slides/images/sisters.jpg" data-state="imageable">
             <h1 class="null">Wrapping <i>up</i></h1>
         </section>
@@ -473,26 +562,51 @@
             <h1 class="null">Use it to <i>improve</i> your company, your code and yourself</h1>
         </section>
         <section data-background-video="slides/videos/ending-01.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Como la cosa entre Daenerys y Juancito era más incómoda que hacer gárgaras con dulce de leche, decidieron darle a la charleta, la charleta de mirá no sos vos, soy yo, la charleta de tenés que respetarme que quiero ayudarte a crecer, la charleta de no, mirá si al final sos un cago de risa, me la paso re bien con vos, y la charleta de sabés qué, antes me caías re mal, pero ahora sos re buena piba, sabelo.
+            </aside>
+        </section>
         <section data-background-video="slides/videos/ending-02.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Y claro, entre charleta y charleta, se hicieron requete amigos, inseparables.
+            </aside>
+        </section>
         <section data-background-video="slides/videos/ending-03.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Y con los dos amiguitos pateando para el mismo lado, el proyecto salió joya y encima Targaryen Consulting se convirtió en el referente tecnológico de Invernalia.
+            </aside>
+        </section>
         <section data-background-video="slides/videos/ending-04.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                pero aún así lo más importante de todo es que gracias a conocer los secretos de un buen Code Review, Juancito y Daenerys, nunca nunca jamás, volvieron a peleaerse.
+            </aside>
+        </section>
         <section data-background-video="slides/videos/ending-05.mp4" data-background-video-muted
-                 data-background-transition="none" data-preload></section>
+                 data-background-transition="none" data-preload>
+            <aside class="notes">
+                Bueno, supongo, qué se yo, no soy adivino che.
+            </aside>
+        </section>
         <section>
             <h1 class="null"><i>Disclaimer</i></h1>
+            <aside class="notes">
+                Y como quiero que pongan tweets sobre esta charla, les dejo la frase del día.
+            </aside>
         </section>
         <section data-state="no-bg" data-transition="slide-in">
-            <h1 class="null">Nobody is perfect<a style="visibility:hidden;">,</a><div style="visibility: hidden">but a <i>Team</i> can be</div></h1>
+            <h1 class="null">Nobody is perfect<a style="visibility:hidden;">,</a>
+                <div style="visibility: hidden">but a <i>Team</i> can be</div>
+            </h1>
         </section>
         <section data-background-image="slides/images/gif-walking.gif" data-state="imageable"
                  data-transition="none" data-background-transition="none">
             <h1 class="null">Nobody is perfect,<br>but a <i>Team</i> can be</h1>
         </section>
-        <section data-background-image="slides/images/questions.png">
+        <section data-background-video="slides/videos/questions.mp4">
         </section>
     </div>
 </div>

@@ -360,6 +360,16 @@ var RevealMenu = window.RevealMenu || (function(){
                 enterFullscreen()
             }
 
+			function closePanelAndResizeWindow(event, force) {
+                closeMenu(event, force)
+                resizeWindows()
+            }
+
+            function resizeWindows() {
+                window.resizeTo(1920, 1280);
+                window.focus();
+            }
+
             function enterFullscreen() {
                 var element = document.documentElement;
 
@@ -542,6 +552,7 @@ var RevealMenu = window.RevealMenu || (function(){
 
 					addToolbarButton('Slides', 'Slides', 'fa-images', 'fas', openPanel, true);
 					addToolbarButton('Fullscreen', 'Fullscreen', 'fa-expand', 'fas', closePanelAndFullscreen, true);
+					addToolbarButton('Resize', 'Resize', 'fa-crop-alt', 'fas', closePanelAndResizeWindow, true);
 					addToolbarButton('Theme', 'Mode', 'fa-adjust', 'fas', switchThemeMode, true);
 
 					if (custom) {
